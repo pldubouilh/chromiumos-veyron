@@ -1,7 +1,7 @@
 Chromium OS - Veyron build
 =========================
 
-Chromium OS build for my Asus Chromebook Flip. Built on the latest Arch. Overall install takes ages, and require loads of storage. You can use my build (from August 2015), or compile it yourself ! ArnoldTheBat update channel might work, but it's untested !
+Chromium OS build for my Asus Chromebook Flip. Built on the latest Arch. Overall install takes ages, and require loads of storage. You can use my build (from August 2015), or compile it yourself ! ArnoldTheBat update channel might work, but it's untested.
 
 Default password on the build `pwda` (you'd better change this ! )
 
@@ -10,8 +10,8 @@ Default password on the build `pwda` (you'd better change this ! )
 
 Should save you a bunch of time !
 	
-	# Clone archive 
-	cd ~ && git clone https://github.com/pldubouilh/chromiumos-veyron.git
+	# Get image 
+	cd ~ && curl -O https://github.com/pldubouilh/chromiumos-veyron/releases/download/DiskImage/veyron-build.7z
 	
 	# Extract image
 	7z x veyron-build.7z 
