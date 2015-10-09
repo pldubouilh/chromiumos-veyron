@@ -11,7 +11,7 @@ Default password on the build `pwda` (you'd better change this ! )
 Should save you a bunch of time !
 	
 	# Get image 
-	cd ~ && curl -O https://github.com/pldubouilh/chromiumos-veyron/releases/download/DiskImage/veyron-build.7z
+	cd ~ && curl -OL https://github.com/pldubouilh/chromiumos-veyron/releases/download/DiskImage/veyron-build.7z
 	
 	# Extract image
 	7z x veyron-build.7z 
